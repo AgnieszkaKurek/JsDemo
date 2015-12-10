@@ -5,9 +5,17 @@
     <meta charset="utf-8" />
     <title>Odliczanie czasu</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
-    <script type="text/javascript"
-    <script src="app.js"></script>
-    
+    <script type="text/javascript"></script>
+   
+        var dzisiaj = new Data();
+
+        var dzień = dzisiaj.getDate();
+        var miesiąc = dzisiaj.getMonth()+1;
+        var rok = dzisiaj.getFullYear();
+
+        var godzina = dzisiaj.getHours();
+        var minuta = dzisiaj.getMinutes();
+        var sekunda = dzisiaj.getSeconds();
 </head>
 <body>
     
