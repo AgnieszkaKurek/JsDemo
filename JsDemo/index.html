@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <title>Odliczanie czasu</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
-    <script type="text/javascript"></script>
-   
+    <script type="text/javascript">
         var dzisiaj = new Data();
 
         var dzień = dzisiaj.getDate();
@@ -16,9 +15,12 @@
         var godzina = dzisiaj.getHours();
         var minuta = dzisiaj.getMinutes();
         var sekunda = dzisiaj.getSeconds();
+    </script>
 </head>
 <body>
     
     <div id="zegar"></div>
+    <script type="text/javascript">document.getElementByld("zegar").innerHTML= dzień + "/" + miesiąc + "/" + rok + "|" + godzina + ":" + minuta +sekunda + ":";</script>
+    
 </body>
 </html>
