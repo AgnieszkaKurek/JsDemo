@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Odliczanie czasu</title>
     <script type="text/javascript">
-        var dzisiaj = new Data();
+        var dzisiaj = new Date();
 
         var dzien = dzisiaj.getDate();
         var miesiac = dzisiaj.getMonth()+1;
@@ -19,7 +19,7 @@
 <body>
     
     <div id="zegar"></div>
-    <script type="text/javascript">document.getElementByld("zegar").innerHTML= dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta +sekunda + ":";</script>
+    <script type="text/javascript"> document.getElementById("zegar").innerHTML = dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta + ":" + sekunda + ":";</script>
     
 </body>
 </html>
