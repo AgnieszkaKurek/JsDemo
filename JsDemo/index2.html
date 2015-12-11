@@ -1,12 +1,22 @@
 ﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
-    <title></title>
+   
 	<meta charset="utf-8" />
+
+    <script type="text/javascript">
+        function sprawdz()
+        {
+            var liczba = document.getElementById("pole").value;
+            document.write(liczba);
+
+        }
+    </script>
+
 </head>
 <body>
     <input type="text" />
-    <input type="submit" value="Sprawdź" />
+    <input type="submit" value="Sprawdź" onclick="sprawdz()" />
 
 </body>
 </html>
