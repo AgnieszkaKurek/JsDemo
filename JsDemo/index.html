@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <title>Odliczanie czasu</title>
     <script type="text/javascript">
+        function odliczanie()
+        { 
         var dzisiaj = new Date();
 
         var dzien = dzisiaj.getDate();
@@ -14,12 +16,17 @@
         var godzina = dzisiaj.getHours();
         var minuta = dzisiaj.getMinutes();
         var sekunda = dzisiaj.getSeconds();
+        document.getElementById("zegar").innerHTML = dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta + ":" + sekunda;
+             
+        setTimeout("odliczanie()", 1000);
+        }
     </script>
 </head>
 <body>
     
     <div id="zegar"></div>
-    <script type="text/javascript"> document.getElementById("zegar").innerHTML = dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta + ":" + sekunda + ":";</script>
+    <script type="text/javascript"> document.getElementById("zegar").innerHTML = dzien + "/" + miesiac + "/" + rok + "|" + godzina + ":" + minuta + ":" + sekunda;
+    </script>
     
 </body>
 </html>
