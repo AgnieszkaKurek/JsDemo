@@ -25,6 +25,7 @@
     <Content Include="app.css" />
     <Content Include="index.html" />
     <Content Include="index2.html" />
+    <Content Include="index3.html" />
     <Content Include="timer.js" />
   </ItemGroup>
   <PropertyGroup>
