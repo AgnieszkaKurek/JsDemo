@@ -54,7 +54,8 @@ litery[34] = "Ż";
 function start() {
     var tresc_diva = "";
     for (i = 0; i <= 34; i++) {
-        tresc_diva = tresc_diva + '<div class="litera">'+ litery[i] +'</div>';
+        var element = "lit" + i;
+        tresc_diva = tresc_diva + '<div class="litera" id="'+element+'">'+ litery[i] +'</div>';
         if ((i + 1) % 7 == 0) tresc_diva = tresc_diva + ' <div style="clear:both;"></div>';
     }
     document.getElementById("alfabet").innerHTML = tresc_diva;
