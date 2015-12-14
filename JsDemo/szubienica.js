@@ -101,4 +101,8 @@ function sprawdz(nr) {
     if (haslo == haslo1)
         document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło:" + haslo + '<br/><br/><span class="reset" onclick="location.reload() ">Jeszcze raz?</span>';
    
+
+    //przegrana
+    if (ile_skuch>=9)
+        document.getElementById("alfabet").innerHTML = "Nie udało się!!! Prawidłowe hasło:" + haslo + '<br/><br/><span class="reset" onclick="location.reload() ">Jeszcze raz?</span>';
 }
