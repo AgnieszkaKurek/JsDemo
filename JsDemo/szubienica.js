@@ -12,4 +12,9 @@ function wypisz_haslo()
 {
     document.getElementById("plansza").innerHTML = haslo1;
 }
-window.onload = wypisz_haslo; 
+window.onload = start;
+function start() {
+    document.getElementById("alfabet").innerHTML = "lolwut";
+    wypisz_haslo();
+
+}
