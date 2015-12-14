@@ -16,7 +16,7 @@ window.onload = start;
 function start() {
     var tresc_diva = "";
     for (i = 0; i <= 34; i++) {
-
+        tresc_diva = tresc_diva + '<div class="litera">A</div>';
     }
     document.getElementById("alfabet").innerHTML = tresc_diva;
     wypisz_haslo();
