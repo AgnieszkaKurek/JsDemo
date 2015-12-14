@@ -46,6 +46,7 @@
     <Content Include="kurs_js2\kurs_js2\zadanie1.html" />
     <Content Include="kurs_js2\kurs_js2\zadanie2.html" />
     <Content Include="style.css" />
+    <Content Include="szubienica.js" />
     <Content Include="timer.js" />
   </ItemGroup>
   <PropertyGroup>
