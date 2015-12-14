@@ -26,6 +26,7 @@
     <Content Include="index.html" />
     <Content Include="index2.html" />
     <Content Include="index3.html" />
+    <Content Include="index4.html" />
     <Content Include="kurs_js2\kurs_js2\slajdy\slajd1.png" />
     <Content Include="kurs_js2\kurs_js2\slajdy\slajd2.png" />
     <Content Include="kurs_js2\kurs_js2\slajdy\slajd3.png" />
@@ -34,6 +35,7 @@
     <Content Include="kurs_js2\kurs_js2\slider.html" />
     <Content Include="kurs_js2\kurs_js2\zadanie1.html" />
     <Content Include="kurs_js2\kurs_js2\zadanie2.html" />
+    <Content Include="style.css" />
     <Content Include="timer.js" />
   </ItemGroup>
   <PropertyGroup>
