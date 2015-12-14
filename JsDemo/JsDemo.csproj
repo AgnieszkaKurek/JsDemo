@@ -23,6 +23,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="img\s0.jpg" />
+    <Content Include="img\s1.jpg" />
+    <Content Include="img\s2.jpg" />
+    <Content Include="img\s3.jpg" />
+    <Content Include="img\s4.jpg" />
+    <Content Include="img\s5.jpg" />
+    <Content Include="img\s6.jpg" />
+    <Content Include="img\s7.jpg" />
+    <Content Include="img\s8.jpg" />
+    <Content Include="img\s9.jpg" />
     <Content Include="index.html" />
     <Content Include="index2.html" />
     <Content Include="index3.html" />
