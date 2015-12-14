@@ -95,11 +95,10 @@ function sprawdz(nr) {
         var obraz = "img/s" + ile_skuch + ".jpg";
         document.getElementById("szubienica").innerHTML = '<img src = "' + obraz + '"alt=""/>';
 
-        
+        }
 
-       
-
-    }
-
+    //wygrana 
+    if (haslo == haslo1)
+        document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło:" + haslo + '<br/><br/><span class="reset" onclick="location.reload() ">Jeszcze raz?</span>';
    
 }
