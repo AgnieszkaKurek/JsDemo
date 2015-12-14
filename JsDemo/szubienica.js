@@ -66,10 +66,15 @@ String.prototype.ustawZnak = function (miejsce, znak) {
     else return this.substr(0, miejsce) + znak + this.substr(miejsce + 1);
 }
 function sprawdz(nr) {
+    var trafiona = false;
     for (i = 0; i < dlugosc; i++) {
         if (haslo.charAt(i) == litery[nr]) {
-            haslo1 = haslo1.ustawZnak(i,litery[nr]);
+            haslo1 = haslo1.ustawZnak(i, litery[nr]);
+            trafiona = true;
         }
     }
+    if (trafiona == true) { }
+    else{}
+
     wypisz_haslo();
 }
