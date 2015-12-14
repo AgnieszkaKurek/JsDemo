@@ -73,7 +73,14 @@ function sprawdz(nr) {
             trafiona = true;
         }
     }
-    if (trafiona == true) { }
+    if (trafiona == true) {
+        var element = "lit" + nr;
+        document.getElementById(element).style.background = "#003300";
+        document.getElementById(element).style.color = "#00C000";
+        document.getElementById(element).style.border = "3px solid #00C000";
+        document.getElementById(element).style.cursor = "default";
+        wypisz_haslo();
+    }
     else{}
 
     wypisz_haslo();
