@@ -45,9 +45,11 @@
     <Content Include="kurs_js2\kurs_js2\slider.html" />
     <Content Include="kurs_js2\kurs_js2\zadanie1.html" />
     <Content Include="kurs_js2\kurs_js2\zadanie2.html" />
+    <Content Include="no.wav" />
     <Content Include="style.css" />
     <Content Include="szubienica.js" />
     <Content Include="timer.js" />
+    <Content Include="yes.wav" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
