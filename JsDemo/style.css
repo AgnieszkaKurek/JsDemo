@@ -40,3 +40,9 @@
     cursor:pointer;
     border-radius:15px;
 }
+.litera:hover{
+    background-color:#222222;
+    color:white;
+    border:3px solid;
+    border-color:white;
+}
