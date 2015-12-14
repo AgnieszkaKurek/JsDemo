@@ -88,6 +88,7 @@ function sprawdz(nr) {
         document.getElementById(element).style.color = "#C00000";
         document.getElementById(element).style.border = "3px solid #C00000";
         document.getElementById(element).style.cursor = "default";
+        document.getElementById(element).setAttribute("onclick", ";");
 
         //skucha
         ile_skuch++;
