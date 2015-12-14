@@ -14,7 +14,11 @@ function wypisz_haslo()
 }
 window.onload = start;
 function start() {
-    document.getElementById("alfabet").innerHTML = "lolwut";
+    var tresc_diva = "";
+    for (i = 0; i <= 34; i++) {
+
+    }
+    document.getElementById("alfabet").innerHTML = tresc_diva;
     wypisz_haslo();
 
 }
